@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Graphics Card Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="G.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">GPU<span>Hub</span></div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#cards">Graphics Cards</a>
+      <a href="#features">Features</a>
+      <a href="#compare">Compare</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Power Your Game With Next-Gen Graphics Cards</h1>
+      <p>Discover the best GPUs for gaming, editing, 3D rendering and more.</p>
+      <div class="hero-buttons">
+        <a href="#cards" class="btn primary">View GPUs</a>
+        <a href="#compare" class="btn secondary">Compare Specs</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="gpu-shape"></div>
+      <p class="hero-tag">Ray Tracing • GDDR6X • 4K Ready</p>
+    </div>
+  </section>
+
+  <section id="cards" class="cards-section">
+    <h2>Popular Graphics Cards</h2>
+    <p class="section-subtitle">Choose the right GPU for your performance and budget needs.</p>
+    <div class="card-grid">
+      <article class="gpu-card">
+        <h3>GX 4090 Ultra</h3>
+        <p class="gpu-tag">4K Extreme Gaming</p>
+        <ul class="gpu-specs">
+          <li>24 GB GDDR6X</li>
+          <li>Ray Tracing Cores</li>
+          <li>DLSS Upscaling</li>
+          <li>Triple Fan Cooling</li>
+        </ul>
+        <p class="price">₹1,20,000*</p>
+      </article>
+
+      <article class="gpu-card">
+        <h3>GX 4070 Pro</h3>
+        <p class="gpu-tag">High FPS 1440p</p>
+        <ul class="gpu-specs">
+          <li>12 GB GDDR6</li>
+          <li>PCIe 4.0 Support</li>
+          <li>Dual Fan Design</li>
+          <li>VR Ready</li>
+        </ul>
+        <p class="price">₹75,000*</p>
+      </article>
+
+      <article class="gpu-card">
+        <h3>GX 3050 Lite</h3>
+        <p class="gpu-tag">Budget 1080p Gaming</p>
+        <ul class="gpu-specs">
+          <li>8 GB GDDR6</li>
+          <li>Low Power Draw</li>
+          <li>Compact Size</li>
+          <li>Backplate Design</li>
+        </ul>
+        <p class="price">₹28,000*</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="features" class="features-section">
+    <h2>Why a Powerful Graphics Card Matters</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>Higher FPS</h3>
+        <p>Smoother gameplay and reduced input lag for competitive titles.</p>
+      </div>
+      <div class="feature">
+        <h3>Better Visuals</h3>
+        <p>Enjoy high resolution textures, shadows, and realistic lighting.</p>
+      </div>
+      <div class="feature">
+        <h3>Creator Friendly</h3>
+        <p>Faster rendering for video editing, 3D modeling, and animation.</p>
+      </div>
+      <div class="feature">
+        <h3>Future Ready</h3>
+        <p>Support for the latest APIs like DirectX 12, Vulkan and OpenGL.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="compare" class="compare-section">
+    <h2>Compare GPU Specs</h2>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Memory</th>
+            <th>Boost Clock</th>
+            <th>Power (W)</th>
+            <th>Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>GX 4090 Ultra</td>
+            <td>24 GB GDDR6X</td>
+            <td>2.5 GHz</td>
+            <td>450W</td>
+            <td>4K Ultra Gaming</td>
+          </tr>
+          <tr>
+            <td>GX 4070 Pro</td>
+            <td>12 GB GDDR6</td>
+            <td>2.3 GHz</td>
+            <td>300W</td>
+            <td>1440p High FPS</td>
+          </tr>
+          <tr>
+            <td>GX 3050 Lite</td>
+            <td>8 GB GDDR6</td>
+            <td>1.8 GHz</td>
+            <td>160W</td>
+            <td>1080p eSports</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p class="section-subtitle">Have questions about graphics cards? Send us a message.</p>
+    <form class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input id="name" type="text" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Enter your email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="gpu-use">Primary Use</label>
+        <select id="gpu-use">
+          <option>Gaming</option>
+          <option>Video Editing</option>
+          <option>3D Rendering</option>
+          <option>Casual Use</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Ask anything about GPUs..."></textarea>
+      </div>
+      <button type="submit" class="btn primary full-width">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 GPUHub • All rights reserved.</p>
+  </footer>
+</body>
+</html>
